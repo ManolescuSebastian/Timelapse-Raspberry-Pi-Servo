@@ -19,8 +19,16 @@ Components
 * 1 x 40 pin gpio connector header
 
 
+Pin connections
+-----
 
-
+Raspberry Pi | Components
+------------ | -------------
+GPIO 17 | Servo Motor 1
+GPIO 27 | Servo Motor 2
+GPIO 22 | DHT11
+GPIO 2 | VCC
+GPIO 1 | GND
 
 
 License
