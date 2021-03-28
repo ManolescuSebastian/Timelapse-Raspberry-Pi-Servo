@@ -30,6 +30,12 @@ GPIO 22 | DHT11
 GPIO 2 | VCC
 GPIO 1 | GND
 
+Requirements
+------
+Flask
+Camera
+io
+
 
 License
 ------
