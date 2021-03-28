@@ -32,9 +32,9 @@ GPIO 1 | GND
 
 Requirements
 ------
-Flask
-Camera
-io
+Flask    
+Camera     
+io    
 
 
 License
