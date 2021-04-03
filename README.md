@@ -1,6 +1,13 @@
 # Timelapse-Raspberry-Pi-Servo
 Raspberry pi project with camera and servo motors that is used for time lapses and temperature value read
 
+
+-----------------------------------
+
+<h2><b>Project in progress</b></h2>
+
+-----------------------------------
+
 Timelapse Demo
 -----
 Will be added soon
