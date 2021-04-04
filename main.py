@@ -26,7 +26,7 @@ servoVertical.start(2.5)
 def startTimelapse():
     camera = PiCamera()
     camera.resolution = (2592, 1944)
-    for filename in camera.capture_continuous('images/img{counter:03d}.jpg'):
+    for filename in camera.capture_continuous('timelapse_images/img{counter:03d}.jpg'):
         print('Captured %s' % filename)
         sleep(15) # wait 15 seconds
     return ""
