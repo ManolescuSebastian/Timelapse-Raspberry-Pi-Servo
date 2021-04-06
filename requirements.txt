@@ -1,1 +1,2 @@
-keyboard == 0.13.5
+adafruit-circuitpython-dht == 3.5.8
+dht11 == 0.1.0
