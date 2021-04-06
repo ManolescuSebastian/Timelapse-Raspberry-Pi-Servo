@@ -39,7 +39,7 @@ GPIO 1 | GND
  
 Run commands and install requirements
 ------
-pip3 install -r requirements.txt
+pip3 install -r requirements.txt        
 sudo apt-get install libgpiod2
 
 License
