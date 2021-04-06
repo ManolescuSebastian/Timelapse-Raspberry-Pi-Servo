@@ -36,13 +36,11 @@ GPIO 27 | Servo Motor 2
 GPIO 22 | DHT11
 GPIO 2 | VCC
 GPIO 1 | GND
-
-Requirements
+ 
+Run commands and install requirements
 ------
-Flask    
-Camera     
-io    
-
+pip3 install -r requirements.txt
+sudo apt-get install libgpiod2
 
 License
 ------
