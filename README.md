@@ -8,13 +8,13 @@ Raspberry pi project with camera and servo motors that is used for time lapses a
 
 -----------------------------------
 
+Timelapse Demo
+-----
+Will be added soon     
+
 Device board
 -----
 <img src="https://github.com/ManolescuSebastian/Timelapse-Raspberry-Pi-Servo/blob/main/readme_resources/timelapse_device.jpg" width="50%"></img>
-
-Timelapse Demo
------
-Will be added soon
 
 Breadboard
 -----
