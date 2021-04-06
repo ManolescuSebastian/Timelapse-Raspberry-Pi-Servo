@@ -42,6 +42,10 @@ Run commands and install requirements
 pip3 install -r requirements.txt        
 sudo apt-get install libgpiod2
 
+Run application on home network
+-----
+Open terminal and type <b>python main.py</b> or <b>python3 main.py</b>
+
 License
 ------
          
