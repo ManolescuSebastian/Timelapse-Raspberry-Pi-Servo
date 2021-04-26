@@ -44,7 +44,11 @@ GPIO 1 | GND
 Run commands and install requirements
 ------
 pip3 install -r requirements.txt        
-sudo apt-get install libgpiod2
+sudo apt-get install libgpiod2     
+
+Requirements.txt contains dependencies  
+adafruit-circuitpython-dht == 3.5.8
+dht11 == 0.1.0
 
 Run application on home network
 -----
