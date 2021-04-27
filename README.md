@@ -10,7 +10,11 @@ Raspberry pi project with camera and servo motors that is used for time lapses a
 
 Timelapse Demo
 -----
-Will be added soon
+Will be added soon     
+
+Device board
+-----
+<img src="https://github.com/ManolescuSebastian/Timelapse-Raspberry-Pi-Servo/blob/main/readme_resources/timelapse_device.jpg" width="50%"></img>
 
 Breadboard
 -----
@@ -40,7 +44,11 @@ GPIO 1 | GND
 Run commands and install requirements
 ------
 pip3 install -r requirements.txt        
-sudo apt-get install libgpiod2
+sudo apt-get install libgpiod2     
+
+Requirements.txt contains dependencies  
+adafruit-circuitpython-dht == 3.5.8          
+dht11 == 0.1.0
 
 Run application on home network
 -----
