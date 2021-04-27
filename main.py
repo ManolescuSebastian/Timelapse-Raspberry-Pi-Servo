@@ -19,8 +19,9 @@ api = Api(app)
 servoPIN = 17
 
 GPIO.setup(servoPIN, GPIO.OUT)
-#servoVertical = GPIO.PWM(servoPIN, 50)
-#servoVertical.start(2.5)
+servoVertical = GPIO.PWM(servoPIN, 50)
+servoVertical.start(3.5)
+servoVertical.ChangeDutyCycle(4)
 
 # DTH 11 sensor (temperature and humidity)
 instance = dht11.DHT11(pin = 22)
@@ -34,6 +35,23 @@ def startTimelapse():
         print('Captured %s' % filename)
         sleep(5) # wait 5 seconds
     return ""
+
+@app.route('/', methods=['POST'])
+def cameraPosition():
+    # Get slider Values
+    slider1 = request.form["vertical_slider"]
+    slider2 = request.form["horizontal_slider"]
+    # Change duty cycle
+    print(slider1)
+    print(slider2)
+    p.ChangeDutyCycle(float(slider1))
+    p1.ChangeDutyCycle(float(slider2))
+    # Give servo some time to move
+    sleep(3)
+    # Pause the servo
+    p.ChangeDutyCycle(0)
+    p1.ChangeDutyCycle(0)
+
 
 # Default web page
 @app.route('/')

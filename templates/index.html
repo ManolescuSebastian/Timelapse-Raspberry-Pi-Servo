@@ -91,7 +91,8 @@
 
                 <!-- Servo motors control -->
                 <div class="row-fluid"><br>
-                    <div class="col-lg">
+                   <!--
+		    <div class="col-lg">
                         <div class="row ">
                             <button type="button" class="btn btn-primary">Up</button>
                         </div>
@@ -105,10 +106,21 @@
                             <button type="button" class="btn btn-primary">Bottom</button>
                         </div>
                     </div>
+		   -->
+
+		<div class="col-lg-6">
+
+		    <form method="POST" action="test">
+           		 <p>Vertical <input type="range" min="2.5" max="12.5" name="vertical_slider" /> </p>
+            		 <p>Horizontal <input type="range" min="2.5" max="12.5" name="horizontal_slider" /> </p>
+            		 <button type="button" class="btn btn-primary btn-lg">Set camera position</button>
+			 <!-- <input type="submit" value="submit" /> -->
+        	    </form>
+		</div>
 
                     <!-- Start timelapse -->
                     <div class="col-lg"><br>
-                        <button type="button" class="btn btn-primary btn-lg">Start <br> timelapse</button>
+                        <button type="submit" class="btn btn-primary btn-lg">Start <br> timelapse</button>
                     </div>
                 </div>
             </div>
